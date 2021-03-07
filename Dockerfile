@@ -1,4 +1,4 @@
-FROM alpine:3.11.6
+FROM alpine:3.13.2
 
 RUN apk --no-cache add bash ca-certificates curl git netcat-openbsd openssh
 
